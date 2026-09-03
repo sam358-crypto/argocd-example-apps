@@ -14,7 +14,7 @@ spec:
         app: guestbook-ui
     spec:
       containers:
-        - image: sam3583558/ci-cd:8
+        - image: sam3583558/ci-cd:9
           name: guestbook-ui
           ports:
             - containerPort: 8080
